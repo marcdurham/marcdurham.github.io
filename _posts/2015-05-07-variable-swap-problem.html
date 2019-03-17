@@ -1,0 +1,12 @@
+---
+layout: post
+title: Variable Swap Problem
+date: '2015-05-07T08:49:00.001-07:00'
+author: Marc Durham
+tags: 
+modified_time: '2015-05-07T08:49:28.609-07:00'
+blogger_id: tag:blogger.com,1999:blog-6813567.post-3156772796437943401
+blogger_orig_url: https://blog.marcdurham.com/2015/05/variable-swap-problem.html
+---
+
+Someone suggested this problem to me a while back: Swap x and y integers, 6 and 248, without using an extra variable. &nbsp;I was already working on my XOR solution, similar to how RAID 5 and one pad key encryption works, when she told me I could use XOR. &nbsp;I almost had it! But anyway this is the solution I came up with:<div><br /><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; [TestMethod]</span><br /><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; public void NoExtraVariables_Swap_XY()</span><br /><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; {</span><br /><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int x = 6;</span><br /><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int y = 248;</span><br /><span style="font-family: Courier New, Courier, monospace;"><br /></span><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; x ^= y;</span><br /><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; y ^= x;</span><br /><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; x ^= y;</span><br /><span style="font-family: Courier New, Courier, monospace;"><br /></span><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Assert.AreEqual(248, x);</span><br /><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Assert.AreEqual(6, y);</span><br /><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; }</span></div>

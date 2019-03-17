@@ -1,0 +1,13 @@
+---
+layout: post
+title: ILSpy for Decompiling Assemblies
+date: '2015-08-12T09:52:00.001-07:00'
+author: Marc Durham
+tags: 
+modified_time: '2015-08-12T09:59:07.929-07:00'
+thumbnail: http://4.bp.blogspot.com/-5w6QEfJtA6s/Vct270JKvzI/AAAAAAABhzc/ujSUN2wURgg/s72-c/ILSpy.Screenshot.Small.png
+blogger_id: tag:blogger.com,1999:blog-6813567.post-5173060733338378494
+blogger_orig_url: https://blog.marcdurham.com/2015/08/ilspy-for-decompiling-assemblies.html
+---
+
+I found an even better way to decompile C# assemblies, better than <a href="http://blog.marcdurham.com/2014_09_01_archive.html#7313167382686362635" target="_blank">ILDASM</a>. &nbsp;It even creates a .csproj file for you.<br /><br />Although <a href="http://blog.marcdurham.com/2014_09_01_archive.html#7313167382686362635" target="_blank">ILDASM</a>&nbsp;helped me find source code from a hexadecimal location in an error message from production, I'm not sure if you can do that with ILSpy, I haven't tried.<br /><br />It's an open source project called ILSpy, this is their website:&nbsp;<a href="http://www.ilspy.net/" target="_blank">www.ilspy.net</a><br /><div class="separator" style="clear: both; text-align: left;"><a href="http://4.bp.blogspot.com/-5w6QEfJtA6s/Vct270JKvzI/AAAAAAABhzc/ujSUN2wURgg/s1600/ILSpy.Screenshot.Small.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="225" src="http://4.bp.blogspot.com/-5w6QEfJtA6s/Vct270JKvzI/AAAAAAABhzc/ujSUN2wURgg/s320/ILSpy.Screenshot.Small.png" width="320" /></a></div><div class="separator" style="clear: both; text-align: left;">I had a little bit of trouble getting it to decompile a XAML file, but not a lot of trouble.</div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;">Just press Ctrl-O to open a C#/.NET .exe, then Ctrl-S to save the code and .csproj file. &nbsp;Then you can open the .csproj file in Visual Studio, I used Visual Studio 2013 and it worked without any issues.</div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;">I used ILSpy at work to locate a hard coded file path in a tool that we had no source code for.</div><div class="separator" style="clear: both; text-align: center;"><br /></div><br />
