@@ -4,5 +4,5 @@
 
 layout: home
 ---
-### Mostly About China
-Welcome to my blog.
+
+Welcome to my blog.  It's mostly about living in China and computer programming.
