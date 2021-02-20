@@ -1,0 +1,26 @@
+id: 940AF2C1-1D89-4FFF-82C7-606F909FE02F
+proposal_number: PR-2211
+
+# The line below should be ignored because it does not exist
+doesnt_exist: Ignore me
+
+created: 2021-01-31 13:15
+name: Clark Kent
+extra_field: This should be ignored
+items:
+- id: 86D1CA5A-BD0B-44C1-A8BE-CF079AE1A061
+  quantity: 2.3
+  price: 300.00
+  product:
+    id: CA7FBA54-564A-43F9-9739-FE63CB51720C
+    code: XF-3000
+    description: |
+       Super Duper Things
+       are everywhere
+- id: FA2788C6-B8E3-44C7-A5EB-3E697B704E77
+  quantity: 1
+  price: 25.00
+  product:
+    id: CA7FBA54-564A-43F9-9739-FE63CB51720C
+    code: ABC-1000
+    description: ABC's Best Model
