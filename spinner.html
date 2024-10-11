@@ -378,16 +378,14 @@
         }
 
         function copyMembersToClipboard() {
-            let team = document.getElementById("team");
+            let members = getQueryParamList("members");
             let outputText = "";
-            let outputHtml = `<h4>Team Spinner</h4>\n<ul>\n`;
-            let children = team.children;
-            for (let i = 0; i < children.length; i++) {
-                let child = children[i];
-                if(child.classList.contains("active")) {
-                    outputText += child.innerText + "\n";
-                    outputHtml += "<li>" + child.innerText + "</li>\n";
-                } 
+            let outputHtml = `<h4>Super Spinner</h4>\n<ul>\n`;
+     
+            for (let i = 0; i < members.length; i++) {
+                let child = members[i];
+                outputText += child + "\n";
+                outputHtml += "<li>" + child + "</li>\n";
             }
 
             outputHtml += `</ul><a href='${document.URL}'>spinner link</a>`;
