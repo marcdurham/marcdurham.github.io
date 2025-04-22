@@ -12,27 +12,40 @@ I’ve built these things with teams and independently in both corporate environ
 C#, SQL, REST, HTML, CSS, PowerShell, Entity Framework, Azure, Azure Bicep, ADO, ASP.NET Core & Framework, MVC, Razor, WinForms, Git, Visual Studio, VS Code.
 
 ## Extra Skills
-JavaScript, Linux bash scripting, Docker, Nginx, HTTPS, Auth0, AutoCAD LISP, VBA, WFC, WPF, Amazon AWS, Azure, & Digital Ocean tools, Python, Java, Kotlin, Swift, on Android Windows, and iOS.
+Rust, Yew.rs (React-like Rust WebAssembly Framework), JavaScript, Linux bash scripting, Docker, Nginx, HTTPS, Auth0, AutoCAD LISP, VBA, WFC, WPF, Amazon AWS, Azure, & Digital Ocean tools, Python, Java, Kotlin, Swift, on Android Windows, and iOS.
 	Disciplines
-Test Driven Development (TDD), Refactoring, Pairing, Design Patterns, SOLID principles, Clean Code & Architecture. 
+Test Driven Development (TDD), Refactoring, Pairing & Mobbing, Design Patterns, SOLID principles, Clean Code & Architecture. 
 
  
 ## Professional Experience
 ### September 2021 - Present
 ### Premera Blue Cross
 ### Software Development Engineer III
-  - Working with a small, and later larger, team, using TDD and agile methods like pairing to ensure code quality, in creating and maintaining ASP.NET Core micro-service style web APIs.
+  - Working as a part of a team, using TDD and agile methods like pairing to ensure code quality, in creating and maintaining ASP.NET Core micro-service style web APIs.
   - Designing and maintaining several Azure infrastructure as code pipelines that create Azure Function Apps, AppServices, Key Vaults, Storage Accounts, database servers and anything we needed for production, test, and deveopment environments.
   - Migrated several services and their infrastructure to a new Azure environments.
 
-### 2019 - Feb 2021
-### Azure Data Migration Services
-### Pipeline Engineer
+### June 2019 – March 2021
+### Virtuosity / Azure Data Migration Services
+### Software Engineer / Pipeline Engineer
+  - Migrated a build system from an Azure DevOps build agent to a secure air-gapped Docker
+container based build system. (Phase 3)
+  - Migrated 300+ project file build traversal structure from Visual Studio 2013 to Visual Studio
+2019 and new simplified SDK project format. (Phase 2)
+  - Migrated an out-dated build system, along with source code, projects files, &amp; change history,
+from an older Microsoft TFS customized build system (CBTv1) to modern standardized build
+pipelines in Azure DevOps with Git. (Phase 1)
+  - Providing support for the team members learning to use Git as their new source control system
+and advice with Git branching strategies.
+  - Initially worked directly with the Scrum organized team and under supervision of a former team
+member who’s team owned the infrastructure and who had been closely involved in building it.
 
-### Dec 2018 – 2019
+### Dec 2018 – May 2019
 ### X-Fire Security
 ### Software Dev
-  - Updating hydraulic fire sprinkler flow & pressure calculation software called LoopCalc to extend it and interface it with newer CAD software. Built using C#, WinForms, NUnit, AutoCAD LISP, VBA.  I started LoopCalc in 2010, see X-Fire below.
+  - Updating hydraulic fire sprinkler flow &amp; pressure calculation software called LoopCalc to extend
+it and interface it with newer CAD software. Built using C#, WinForms, NUnit, AutoCAD LISP,
+VBA. I started LoopCalc in 2010, see X-Fire below.
 
 ### Dec 2015 - Dec 2018
 ### Freelancing from China
