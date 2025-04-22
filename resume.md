@@ -9,16 +9,27 @@ Over the years, working on complex projects, I’ve learned that programming isn
 I’ve built these things with teams and independently in both corporate environments and in small businesses.  In both environments I’ve learned to appreciate and understand the needs of the business and the relationships with the people I work with.
 
 ## Core Skills
-C#, SQL, REST, HTML, CSS, PowerShell, Entity Framework, ADO, ASP.NET Core & Framework, MVC, Razor, WinForms, Git, Visual Studio, VS Code.
+C#, SQL, REST, HTML, CSS, PowerShell, Entity Framework, Azure, Azure Bicep, ADO, ASP.NET Core & Framework, MVC, Razor, WinForms, Git, Visual Studio, VS Code.
 
 ## Extra Skills
-JavaScript, Linux bash scripting, Docker, Nginx, HTTPS, AutoCAD LISP, VBA, WFC, WPF, Amazon AWS, Azure, & Digital Ocean tools, Python, Java, Kotlin, Swift, on Android Windows, and iOS.
+JavaScript, Linux bash scripting, Docker, Nginx, HTTPS, Auth0, AutoCAD LISP, VBA, WFC, WPF, Amazon AWS, Azure, & Digital Ocean tools, Python, Java, Kotlin, Swift, on Android Windows, and iOS.
 	Disciplines
 Test Driven Development (TDD), Refactoring, Pairing, Design Patterns, SOLID principles, Clean Code & Architecture. 
 
  
 ## Professional Experience
-### Dec 2018 – Present
+### September 2021 - Present
+### Premera Blue Cross
+### Software Development Engineer III
+  - Working with a small, and later larger, team, using TDD and agile methods like pairing to ensure code quality, in creating and maintaining ASP.NET Core micro-service style web APIs.
+  - Designing and maintaining several Azure infrastructure as code pipelines that create Azure Function Apps, AppServices, Key Vaults, Storage Accounts, database servers and anything we needed for production, test, and deveopment environments.
+  - Migrated several services and their infrastructure to a new Azure environments.
+
+### 2019 - Feb 2021
+### Azure Data Migration Services
+### Pipeline Engineer
+
+### Dec 2018 – 2019
 ### X-Fire Security
 ### Software Dev
   - Updating hydraulic fire sprinkler flow & pressure calculation software called LoopCalc to extend it and interface it with newer CAD software. Built using C#, WinForms, NUnit, AutoCAD LISP, VBA.  I started LoopCalc in 2010, see X-Fire below.
