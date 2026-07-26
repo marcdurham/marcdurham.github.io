@@ -1,0 +1,79 @@
+---
+---
+
+// Override minima's default variables before importing its partials.
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$base-font-size: 18px;
+$base-line-height: 1.6;
+$spacing-unit: 32px;
+
+$text-color: #2b2b2b;
+$background-color: #fffdf9;
+$brand-color: #1a6b54;
+
+$grey-color: #6b6b6b;
+$grey-color-light: #e4e4e4;
+$grey-color-dark: #3a3a3a;
+
+$content-width: 760px;
+
+@import "minima";
+
+// --- Small extra polish beyond variable overrides ---
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.site-title,
+.site-title:visited {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-header {
+  border-top: 4px solid $brand-color;
+  border-bottom: 1px solid $grey-color-light;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+a {
+  transition: color 0.15s ease-in-out;
+}
+
+.post-link {
+  text-decoration: none;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+.post-content {
+  img {
+    border-radius: 6px;
+  }
+
+  blockquote {
+    border-left: 4px solid $brand-color;
+    color: $grey-color-dark;
+  }
+
+  code {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+  }
+
+  pre {
+    border-radius: 6px;
+  }
+}
+
+.footer-col-wrapper {
+  color: $grey-color-dark;
+}
