@@ -6,6 +6,8 @@ Very simple actually:
     git push origin master
     
 ### How To Preview
+Install Jekyll: https://jekyllrb.com/
+
 From your own machine:
     jekyll serve
     
